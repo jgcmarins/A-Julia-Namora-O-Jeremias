@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <title>A Julia Namora o Jeremias?</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <style type="text/css" id="style"></style>
+</head>
+
+<body>
+  <h1 class="title">A Julia Namora o Jeremias?</h1>
+
+  <div class="pages">
+    <section id="yes" class="page">
+      <h2 class="answer">&nbsp;<span class="yes">SIM</span>,</h2>
+      <h3 class="answer">Então você namora o Jeremias 🎉 🎉</h1>
+        <a class="btn check-again" href="#"
+          onclick="ga('send', 'event', 'user', 'click', 'check-again', 1)">
+          tente novamente
+        </a>
+    </section>
+
+    <section id="no" class="page">
+      <h2 class="answer">&nbsp;<span class="no">NÃO</span>,</h2>
+      <h3 class="answer">Então você não namora o Jeremias 😐</h1>
+        <a class="btn check-again" href="#"
+          onclick="ga('send', 'event', 'user', 'click', 'check-again', 2)">
+          tente novamente
+        </a>
+    </section>
+
+    <div id="main" class="page">
+      <h2 id="question" class="question">Para saber se a Julia namora o Jeremias, responda a seguinte pergunta:<br>
+      Você é a Julia?</h2>
+
+      <div class="buttons">
+        <a class="btn yes-hover" href="#yes"
+          onclick="ga('send', 'event', 'user', 'answer', 'yes')">Sim</a>
+
+        <a class="btn no-hover" href="#no"
+          onclick="ga('send', 'event', 'user', 'answer', 'no')">Não</a>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer" class="show-animation">
+    <a class="github-button" href="https://github.com/jgcmarins/A-Julia-Namora-O-Jeremias" data-icon="octicon-star" data-count-href="/jgcmarins/A-Julia-Namora-O-Jeremias/stargazers"
+      data-count-api="/repos/jgcmarins/A-Julia-Namora-O-Jeremias#stargazers_count"
+      data-count-aria-label="# stargazers on GitHub"
+      aria-label="Star jgcmarins/A-Julia-Namora-O-Jeremias on GitHub"
+       onclick="ga('send', 'event', 'user', 'open', 'github')">
+      View on GitHub
+      </a>
+  </footer>
+
+  <script type="text/javascript" src="app.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
